@@ -1,0 +1,164 @@
+@media screen and (min-width: 992px) {
+  /*=============== REUSABLE CSS CLASSES ===============*/
+    .container{
+      max-width: 83%;
+    }
+
+    .section {
+      margin-bottom: 4rem;
+    }
+
+    .flexdesktop {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .flex-row-revers {
+      flex-direction: row-reverse;
+    }
+
+    .img-center {
+      text-align: center;
+    }
+    .icon-box-container {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .product-box-container {
+      grid-template-columns: repeat(3,1fr);
+      margin: 2rem 0;
+    }
+    
+    .latest-news {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      padding-top:2rem;
+    }
+    
+    .latest-news > * {
+      flex: 1;
+    }
+
+    .latest-news .text-center {
+      text-align: left;
+    }
+
+    .flex-start {
+      align-items: flex-start;
+    }
+
+    .team-container {
+      grid-template-columns: repeat(4,1fr);
+    }
+
+    .Portners-container {
+      grid-template-columns: repeat(4,1fr);
+      margin: 3rem 0;
+
+    }
+
+    .Portners-container img {
+      width: 100%;
+    }
+   .partners .paragraph {
+    margin: auto;
+    text-align: center;
+   }
+
+   .mmd {
+    text-align: center;
+   }
+   .width-50 {
+    text-align: center;
+   }
+   .width-75 {
+    width: 75%;
+   }
+    .blog  .text-Left{
+       text-align: center;
+       margin: auto;
+    }
+    .blog-container {
+      grid-template-columns: repeat(3,1fr);
+      margin-bottom: 3rem;
+    }
+
+    .contact {
+      flex-direction: row;
+      margin-top: 4rem;
+    }
+
+    .contact > * {
+      flex: 1;
+    }
+
+    .ssd {
+     width: 50%;
+     text-align: left;
+    }
+
+    .input-container {
+      grid-template-columns: repeat(2,1fr);
+    }
+
+    #sddp {
+     margin-top:0.7rem;
+    }
+
+    .top-footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+      margin-top: 8rem;
+    }
+
+    .top-footer > * {
+     flex: 1;
+    }
+    .links {
+      justify-content: space-evenly;
+    }
+
+    .bottom-footer {
+    display: flex;
+    
+    }
+
+    .copyright {
+      margin-right: 2rem;
+     
+    }
+
+    .foot-socials a {
+      font-size: 2rem;
+    }
+
+    .mobile-hidden {
+      display: block;
+    }
+
+    .desktop-hidden {
+      display: none;
+    }
+
+    .desktop-menu ul {
+    display: flex;
+    }
+
+    .desktop-menu ul li {
+       padding: 0.2rem 1rem;
+    }
+
+    .desktop-menu ul li a {
+      color: var(--title-color);
+      font-size: 1.08rem;
+    }
+
+    .desktop-menu ul li:hover a {
+      color:#6960fc;
+    }
+  }
+
